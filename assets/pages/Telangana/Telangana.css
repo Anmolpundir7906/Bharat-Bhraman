@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+:root {
+    --primary-color: #00040b;
+    --primary-light: #a0b3e5;
+    --orange-color: #f35405;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #00040b;
+    color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 2px #a0b3e5;
+    z-index: 1000;
+}
+
+.nav-bar .active {
+
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 2px #a0b3e5;
+
+}
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.6rem 1rem;
+}
+
+.nav-bar .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-bar .site-logo img{
+    /* padding: 0.5rem; */
+    width: 140px;
+    border-radius: 50px;
+}
+
+.nav-bar .site-logo .logo-link {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #fff;
+    border-top: 4px solid #fff;
+}
+
+.nav-bar .navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.nav-bar .navigation .link a {
+    padding: 0.25rem 0.5rem;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    border-top: 1px solid transparent;
+    transition: all 0.6s;
+}
+
+.nav-bar .navigation .link:hover a {
+    color: #f35405;
+    border-top: 1px solid #f35405;
+}
+.home {
+    /* background: linear-gradient(to top, #00040b, #00040bbb), url(./assets/header.jpg); */
+    background: linear-gradient(to top, #00040b5d, #00040ba5), url(Telangana.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.home .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.home .content h1 {
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-image: url(./assets/ox.jpg);
+    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    -webkit-text-stroke: 1px #fff;
+    max-width: 450px;
+}
+
+.home .content h4 {
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+.extra{
+    margin: auto;
+    margin-bottom: 24px;
+}
+.extra a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #eee;
+    cursor: pointer;
+}
+.btn-explore {
+    width: fit-content;
+    background-color: #f35405cc;
+    padding: 0.9rem 2.4rem;
+    padding-left: 1rem;
+    font-size: 16px;
+    line-height: 16px;
+    color: #eee;
+    border: 2px solid #f35405cc;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all .5s;
+}
+.btn-explore a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #eee;
+    cursor: pointer;
+}
+
+.btn-explore:hover {
+    border: 2px solid #f35405;
+    background-color: #f35405;
+    padding-left: 2rem;
+
+}
+section {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+section .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 2rem 0rem;
+}
+
+section .heading .title {
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #fff;
+    text-align: center;
+
+}
+
+section .heading .subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    color: #eee;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+.placename{
+    display: flex;
+    gap: 24px;
+    margin-top: -35px;   
+}
+.containe{
+    display: flex;
+    gap: 24px;
+    margin-top: 25px;
+}
+.box1{
+    width: 40%;
+    height: 70vh;
+    background-color: red;
+    border-radius: 15px;
+}
+.l1b1{
+    background-image: url(Bhongir\ fort.jpg);
+    background-size: cover;
+}
+.l2b1{
+    background-image: url(Ethopothala\ Falls.jpg);
+    background-size: cover;
+}
+.l3b1{
+    background-image: url(Koulas\ Fort.jpg);
+    background-size: cover;
+}
+.l4b1{
+    background-image: url(Sarnath\ varanasi.jpg);
+    background-size: cover;
+}
+.l5b1{
+    background-image: url(lepakshi_temple_01.jpg.crdownload);
+    background-size: cover;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: rgba(86, 78, 78, 0.686); */
+    width: 50%;
+    color: #eeeff2;
+    height:fit-content;
+    border-radius: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 400;
+}
+.containe h2{
+       margin: 0px 0px 12px 0px ;  
+       /* display: inline; */
+       padding: 8px;
+       width: fit-content;
+       border: 2px solid rgb(255, 255, 255);
+       border-radius: 15px;
+       background: #f35405;
+}
+.box4 h2,.box5 h2,.box6 h2{
+    margin: 10px 0px 12px 0px ;  
+    /* display: inline; */
+    padding: 8px;
+    width: fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background: #f35405;
+}
+.box4,.box5,.box6{
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 400;
+    /* width: 80vw; */
+    /* background-color: rgba(86, 78, 78, 0.686); */
+}
+.box4,.box5,.box6 p{
+    padding-left: 20px;
+}
+.box4 ul li{
+    margin: 5px 0px 5px 0px;
+}
+/* cards */
+
+
+/* footer */
+footer {
+    color: #fff;
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+footer .content h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    line-height: 46px;
+}
+
+footer .content .social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+footer .content .social a i {
+    font-size: 24px;
+    color: #fff;
+}
+
+footer .content .social a:hover i {
+    font-size: 24px;
+    color: #f35405;
+}
+
+footer .content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer .content p i {
+    font-size: 36px;
+    color: #ffffff44;
+    padding-bottom: 2rem;
+
+}
+
+footer .content .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+footer .content .navigation .link {
+    padding: 3px 0px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+
+}
+
+footer .content .navigation .link a {
+    font-size: 18px;
+    color: #fff;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+
+footer .content .navigation .link:hover {
+    border-bottom: 1px solid #eee;
+}
+
+footer .rights {
+    width: 100%;
+    border-top: 1px solid #eeeeee77;
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #ffffffcc;
+
+}
+
+footer .rights a {
+    color: #ffffff;
+    font-weight: 400;
+
+}
+.icon-bars,#bars {
+    display: none;
+}
+

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="page1.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+</head>
+
+<body>
+  <nav class="nav-bar" id="navbar">
+    <div class="content">
+      <div class="site-logo">
+        <!-- <a href="#" class="logo-link">Bharat Bharaman</a> -->
+        <img src="/assets/images/Screenshot 2024-02-10 095224.png" alt="">
+      </div>
+
+      <ul class="navigation">
+        <li class="link"><a href="http://127.0.0.1:5501/index.html#home" target="_blank">home</a></li>
+        <li class="link"><a href="http://127.0.0.1:5500/index.html#about" target="_blank">about us</a></li>
+        <li class="link"><a href="">next</a></li>
+        <li class="link"><a href="http://127.0.0.1:5500/index.html#blog" target="_blank">blog</a></li>
+        <li class="link"><a href="#gallery" target="_blank">gallery</a></li>
+        <li class="link"><a href="" target="_blank">contact</a></li>
+        <input type="search" id="searchbar" onkeyup="search()" placeholder="Search Location...">
+      </ul>
+
+      <label for='bars' class="icon-bars"><i class="ri-bar-chart-2-fill"></i></label>
+    </div>
+  </nav>
+
+  <section class="next" id="next">
+    <div class="heading">
+      <h1 class="title">discover the most attracative destinations</h1>
+      <p class="subtitle">Let's see the India with your passion</p>
+    </div>
+    <div class="content">
+      <div class="items">
+        <!-- card 1 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/ANdhra Pradesh/3479485.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Andhra Pradesh</h4>
+            <p>
+               ANDRHRA PRADESH WHERE TYRADITION MEETS INNOVATION.
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/ANdhra%20Pradesh/Andhra%20Pradesh.html">Read More</a></button>
+          </div>
+        </div>
+                                 <!-- card 2 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Arunachal Pradesh Final/arun.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Arunachal Pradesh</h4>
+            <p>
+              "ARUNACHAL PRADESH WHERE ADVANTURE AWAITS"
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Arunachal%20Pradesh%20Final/Arunachal%20Pradesh.html">Read More</a></button>
+          </div>
+        </div>
+                              <!-- card 3 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Assam/assam.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Assam</h4>
+            <p>
+              "ASSAM WHERE NATURE'S BEAUTY AND CULTURE UNITE."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Assam/Assam.html">Read More</a></button>
+
+          </div>
+                    <!-- card 4 -->
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Himachal Pradesh/Kalpa.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Himachal Pradesh</h4>
+            <p>
+              
+Himachal Pradesh, nestled in the lap of the Himalayas, captivates with its serene landscapes and rich cultural tapestry.
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Goa/Goa.html">Read More</a></button>
+
+          </div>
+        </div>
+                   <!-- card 5 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Chattisghar/chatishghar.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Chhattisgarh</h4>
+            <p>
+              "Chhattisgarh: Nature's Canvas, Culture's Tapestry!"
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+               <!-- card 6 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Goa/Goa.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Goa</h4>
+            <p>
+              "Goa: Where Every Sunset Paints a Story!"
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Goa/Goa.html">Read More</a></button>
+
+          </div>
+        </div>
+            <!-- card 7 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Gujarat/Mahabat-ka-Maqbara.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Gujarat</h4>
+            <p>
+              "Gujarat: Vibrant Heritage, Limitless Horizons!"
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Gujarat/Gujarat.html">Read More</a></button>
+
+          </div>
+        </div>
+         <!-- card 8 -->
+         <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Ladakh/WhatsApp Image 2024-05-11 at 17.33.23_be68ff9f.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Ladakh Territory</h4>
+            <p>
+              "Ladakh: Where the Spirit of Adventure Soars High amidst Pristine Landscapes and Cultural Richness."
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div>
+
+        <!-- card 9 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Himachal Pradesh</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 10 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Jammu and Kashmir</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 11 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Jharkhand</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 12 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Karnataka/Karnataka.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Karnataka</h4>
+            <p>
+              
+                 Karnataka, a vibrant Indian state, blends rich cultural heritage with dynamic economic growth and natural beauty. 
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Karnataka/Karnataka.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 13 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Kerala/keralacover.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Kerala</h4>
+            <p>
+              "Kerala: Where the Backwaters Beckon and Nature's Symphony Plays."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Kerala/Kerala.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 14 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Madhya Pradesh</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 15 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Maharashtra/MahCo.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Maharashtra</h4>
+            <p>
+              "Maharashtra: Where Tradition and Innovation Flourish in Harmony."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Maharashtra/Arunachal%20Pradesh.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 16 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Manipur/Senapati.webp" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Manipur</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Manipur/Manipur.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 17 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Meghalaya/Meghalaya1.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Meghalaya</h4>
+            <p>
+              "Meghalaya: Where Clouds Dance Over Rolling Hills, Enchanting Hearts with Nature's Symphony."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Meghalaya/Meghalaya.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 18 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Mizoram</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 19 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Nagaland/konsmon.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Nagaland</h4>
+            <p>
+              "Nagaland: Where Tribal Traditions Resonate with Vibrant Cultures Amidst Lush Green Hills."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Nagaland/Arunachal%20Pradesh.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 20 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Odisha</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 21 -->
+        <!-- <div class="card">
+          <div class="image">
+            <img src="/assets/images/Assam-Tourism_600.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Punjab</h4>
+            <p>
+              Beautiful state
+            </p>
+            <button class="btn-read">read More</button>
+
+          </div>
+        </div> -->
+        <!-- card 22 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Rajasthan/Karauli.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Rajasthan</h4>
+            <p>
+              "Rajasthan: Where History Dances in the Sands, Painting a Tapestry of Royal Grandeur."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Rajasthan/Rajasthan.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 23 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Sikkim/ravangla.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Sikkim</h4>
+            <p>
+              "Sikkim: Where Himalayan Tranquility Meets Cultural Diversity in Nature's Embrace."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Sikkim/Sikkim.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 24 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Tamil Nadu/Kolli hills.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Tamil Nadu</h4>
+            <p>
+              "Tamil Nadu: Where Ancient Heritage Thrives Amidst Modern Dynamism, Under the Radiant Sun of Dravidian Culture."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Tamil%20Nadu/Tamil%20Nadu.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 25 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Telangana/Bhongir fort.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Telangana</h4>
+            <p>
+              "Telangana: Where Tradition Meets Technology in the Heart of India's Innovation Hub."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Telangana/Telangana.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 26 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Tripura/Tripura3.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Tripura</h4>
+            <p>
+              "Tripura: Where Verdant Landscapes and Rich Heritage Create a Tapestry of Tranquility and Tradition."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Tripura/Tripura.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 27 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Uttarakhand/KWhatsApp Image 2024-05-11 at 18.39.52_bee40610.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Uttarakhand</h4>
+            <p>
+              "Uttarakhand: Where the Magnificent Himalayas Embrace Spiritual Serenity, Nurturing Adventure and Tranquility Alike."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Uttarakhand/Uttrakhand.html">Uttrakhand</a></button>
+
+          </div>
+        </div>
+        <!-- card 28 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/Uttar Pardesh/Uttar Pradesh.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>Uttar Pradesh</h4>
+            <p>
+              "Uttar Pradesh: Where Ancient History and Modern Dynamism Unite, Igniting the Spirit of India's Heartland."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/Uttar%20Pardesh/Uttar%20Pradesh.html">Read More</a></button>
+
+          </div>
+        </div>
+        <!-- card 29 -->
+        <div class="card">
+          <div class="image">
+            <img src="/assets/pages/West Bengal/BI.jpg" alt="" srcset="">
+          </div>
+          <div class="content-card">
+            <h4>West Bengal</h4>
+            <p>
+              "West Bengal: Where Culture Flows Like the Mighty Ganges, Enriching Lives with Heritage and Harmony."
+            </p>
+            <button class="btn-read"><a href="http://127.0.0.1:5501/assets/pages/West%20Bengal/West%20Bengal.html">Read More</a></button>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="content">
+      <h4>Bharat Bharaman</h4>
+      <div class="social">
+        <span>
+          <a href="https://github.com/Anmolpundir7906/Bharat-Bhraman" target="_blank"><i class="ri-github-fill"></i></a>
+        </span>
+      </div>
+      <p>
+        <i class="ri-double-quotes-l"></i>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reiciendis at ullam beatae temporibus officia
+        quibusdam facilis dolorum non quo earum omnis soluta quas
+        <i class="ri-double-quotes-r"></i>
+
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nulla soluta.</p>
+      <ul class="navigation">
+        <li class="link"><a href="#home">home</a></li>
+        <li class="link"><a href="#about">about us</a></li>
+        <li class="link"><a href="#next">next</a></li>
+        <li class="link"><a href="#blog">blog</a></li>
+        <li class="link"><a href="#gallery">gallery</a></li>
+        <li class="link"><a href="#contact">contact</a></li>
+
+      </ul>
+    </div>
+    <div class="rights">
+      Copyrights &#169 <a href="http://" target="_blank" rel="noopener noreferrer">itcode</a>. all rights reserved
+    </div>
+  </footer>
+  <script src="page1.js"></script>
+</body>
+
+</html>
